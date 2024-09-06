@@ -23,7 +23,7 @@ function iifeWorker(): Plugin {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/pfennigfuchs/',
+  base: '/',
   plugins: [vue(), vueJsx(), iifeWorker()],
   build: {
     sourcemap: true,
