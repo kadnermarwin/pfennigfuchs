@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import DashBoard from "@/components/DashBoard.vue";
 import ContactList from "@/components/ContactList.vue";
 import NewRoom from "@/components/NewRoom.vue";
